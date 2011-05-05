@@ -1,4 +1,6 @@
 Depot::Application.configure do
+  config.action_mailer.delivery_method = :test
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -22,5 +24,5 @@ Depot::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
-end
 
+end
