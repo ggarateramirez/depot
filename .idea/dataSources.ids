@@ -1,7 +1,7 @@
 <?xml version="1.0"?><component name="dataSourceStorage">
   <data-source source="LOCAL" name="Rails depot: development" product="" version="" jdbc-version="" driver-version="" uuid="ebf9d180-20ee-4d11-941f-44f7e352b6b5">
     <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-    <jdbc-url>jdbc:sqlite:/home/ggarate/railsapp/depot/db/development.sqlite3</jdbc-url>
+    <jdbc-url>jdbc:sqlite:/home/ggarate/RailsApp/depot/db/development.sqlite3</jdbc-url>
     <libraries>
       <library>
         <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url>
@@ -10,10 +10,19 @@
   </data-source>
   <data-source source="LOCAL" name="Rails depot: test" product="" version="" jdbc-version="" driver-version="" uuid="02e38ec5-b48f-47a8-af75-7d587be435c2">
     <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-    <jdbc-url>jdbc:sqlite:/home/ggarate/railsapp/depot/db/test.sqlite3</jdbc-url>
+    <jdbc-url>jdbc:sqlite:/home/ggarate/RailsApp/depot/db/test.sqlite3</jdbc-url>
     <libraries>
       <library>
         <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails depot: production" product="" version="" jdbc-version="" driver-version="" uuid="74721b09-0a7c-4b19-bbff-d30166987dac">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://127.0.0.1/db/production.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
       </library>
     </libraries>
   </data-source>
